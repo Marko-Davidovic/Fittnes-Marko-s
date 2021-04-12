@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko's Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navbar -->
+    <nav class="navbar">
+        <a href="" class="navbar__logo">MD</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/services.html" class="navbar__link">Services</a>
+            <a href="/plans.html" class="navbar__link">Plans</a>
+            <a href="/trainers.html" class="navbar__link">Trainers</a>
+        </div>
+    </nav>
+    <!--Hero Sections-->
+
+    <div class="hero">
+        <div calss="hero__content">
+            <h1 class="animate-hero">MD Fitness</h1>
+            <p class="animate-hero">Join Now for $29</p>
+            <a href="/" class="button" class="animate-hero">Get Started</a>
+        </div>
+    </div>
+    <!-- Services Sections -->
+    <div class="services">
+        <div class="services__container">
+            <div>
+                <p class="topline animate-serveces">Features</p>
+                <h1 class="services__heading animate-serveces">What we offer</h1>
+                <div class="services__features animate-serveces">
+                    <p class="services__feature animate-serveces"><i class="fas fa-check-circle"></i>Group Fitness Classes</p>
+                    <p class="services__feature animate-serveces"><i class="fas fa-check-circle"></i>Personal Trainer Sessions</p>
+                    <p class="services__feature animate-serveces"><i class="fas fa-check-circle"></i>Indoor Pool</p>
+                    <p class="services__feature animate-serveces"><i class="fas fa-check-circle"></i>Steam Room and Sauna</p>
+                    <p class="services__feature animate-serveces"><i class="fas fa-check-circle"></i>Basketball Court</p>
+                    <p class="services__feature animate-serveces"><i class="fas fa-check-circle"></i>Open 24/7</p>
+
+                </div>
+            </div>
+            <div>
+                <img src="./images/image_3.jpg" alt="gym" class="services__img animate-img">
+            </div>
+        </div>
+    </div>
+    <!-- Membership Section -->
+    <div class="memberships">
+        <h1 class="animate-membership">View Our Plans</h1>
+        <p class="membership__desc animate-membership">Get started today and receive 25% OFF your first month</p>
+        <div class="membership__wrapper">
+            <div class="membership__card animate-card">
+                <div class="membership__title">
+                    <i class="fas fa-dumbbell card-icon"></i>
+                    <h3>Starter</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>$29 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+            <div class="membership__card animate-card">
+                <div class="membership__title">
+                    <i class="fas fa-bicycle card-icon"></i>
+                    <h3>Silver</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>Gropu Fitness Classes</p>
+                    <p>$49 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+            <div class="membership__card animate-card">
+                <div class="membership__title">
+                    <i class="fas fa-dumbbell card-icon"></i>
+                    <h3>Gold</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>Gropu Fitness Classes</p>
+                    <p>Private Personal Traning</p>
+                    <p>$99 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <!-- Team section-->
+    <div class="team">
+        <div class="team__wrapper">
+            <div class="team__text">
+                <p class="topline">Private Coaching</p>
+                <h1>Meet our Trainers</h1>
+                <p class="team__desc">All about Personal traniners have over 30 years of expirience
+                    combained. Each trainer specializes in straength and mobility workouts.
+                </p>
+            </div>
+            <div class="team__text">
+                <p class="topline">Free Trial</p>
+                <h1>7 day Trial</h1>
+                <p class="team__desc">You cam work with each trainer for up to 7 days for free in order to see if they are a good fit for your goals.
+                </p>
+            </div>
+                <div class="team__card">
+                    <p>Sarah</p>
+                    <img src="./images/person_1.jpg" alt="person" class="team__img" />
+                </div>
+                <div class="team__card">
+                    <p>Kelly</p>
+                    <img src="./images/person_2.jpg" alt="person" class="team__img" />
+                </div> 
+                <div class="team__card">
+                    <p>Alex</p>
+                    <img src="./images/person_3.jpg" alt="person" class="team__img" />
+                </div> 
+                <div class="team__card">
+                    <p>James</p>
+                    <img src="./images/person_4.jpg" alt="person" class="team__img" />
+                </div>             
+            </div>
+        </div>
+    </div>
+    <!--  Form Section -->
+    <div class="email">
+        <div class="email__content">
+            <h1>Get Access to Members Only Perks</h1>
+            <p>Sign upfor our newsletter below to get $100 off your firs personal traning session.</p>
+            <form action="#">
+                <div class="form__wrap">
+                    <label for="email">
+                        <input type="email" placeholder="Enter your email" id="email"/>
+                    </label>
+                    <button class="button" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>MD FITENSS</h1>
+                <p>Luxury fitness gym located in downtown Miami.</p>
+                <p in="phone">305/ 123 - 4567</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__title">Contact Us</div>
+                <a href="/serviced.html" class="footer__link">Contact</a>
+                <a href="/serviced.html" class="footer__link">Support</a>
+                <a href="/serviced.html" class="footer__link">Sponsorships</a>
+            </div>
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                    <div class="footer__title">Memberships</div>
+                    <a href="/" class="footer__link">Pricing</a>
+                    <a href="/" class="footer__link">Plans</a>
+                    <a href="/" class="footer__link">FAQ</a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <div class="footer__title">Social Media</div>
+                <a href="/" class="footer__link">Instagram</a>
+                <a href="/" class="footer__link">Facebook</a>
+                <a href="/" class="footer__link">YouTube</a>
+                <a href="/" class="footer__link">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
